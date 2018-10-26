@@ -1,0 +1,25 @@
+{
+  "name": "hackernews-node",
+  "version": "0.0.1",
+  "description": "Hacker News twin (but in nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "GraphQL",
+    "NodeJS",
+    "Express",
+    "Apollo",
+    "Prisma"
+  ],
+  "author": "Cristian Camilo Morales",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "graphql-yoga": "1.16.7",
+    "jsonwebtoken": "8.3.0",
+    "prisma-binding": "2.1.6"
+  }
+}
